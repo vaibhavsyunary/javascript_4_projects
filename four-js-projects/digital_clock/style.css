@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.digital-clock-container{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+  background-color: antiquewhite;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.clock{
+  padding: 10px 20px;
+  background-color: orange;
+  color: white;
+  border-radius: 5px;
+  font-size: 1.5rem;
+}
